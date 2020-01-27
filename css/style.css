@@ -1,0 +1,23 @@
+body{
+    color: #FFF;
+    background-image: url(https://img4.goodfon.ru/wallpaper/nbig/d/b1/abstract-dark-blue-polygonal-background-abstraktsiia-geometr.jpg);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header{
+    
+}
+
+#title{
+    align-items: center;
+}
+
+#description{
+align-items: center;
+}
+
