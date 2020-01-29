@@ -1,23 +1,90 @@
+
+
 body{
     color: #FFF;
     background-image: url(https://img4.goodfon.ru/wallpaper/nbig/d/b1/abstract-dark-blue-polygonal-background-abstraktsiia-geometr.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 21px;
 }
 
 main{
-    display: flex;
-    flex-direction: column;
 
+
+}
+
+.container{
+display: flex;
+flex-flow: column wrap;
+align-content: center;
 }
 
 .header{
-    
-}
-
-#title{
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
-#description{
-align-items: center;
+#title{
+
 }
 
+#description{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.survey-form{
+    display: flex;
+    flex-flow: column wrap;
+    width: 720px;
+    background-color: rgba(97,79,175, 0.5);
+    padding: 20px;
+    border-radius: 4px;
+    margin: 0;
+    @media screen (max-width: 900px){
+        width: 100%;
+    }
+}
+.form-control{
+    width: 100%;
+    border-radius: 6px;
+    height: 40px;
+    border: none;
+    font-size: 17px;
+    padding-left: 14px;
+}
+.form-group{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.input-radio{
+    width: 17px;
+    height: 17px;
+}
+.input-checkbox{
+    width: 17px;
+    height: 17px;
+}
+.input-textarea{
+    height: 100px;
+    border: none;
+    font-size: 17px;
+    padding-left: 14px;
+}
+.submit-button{
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background-color: #37AF65;
+    font-size: 21px;
+    color: white;
+    cursor: pointer;
+}
